@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.preta{
+    height: 10vh;
+    background: black;
+    grid-area: preta;
+}
+.azul{
+    height:80 vh;
+    background: blue;
+    grid-area: azul;
+}
+.roxo{
+    height: 80vh;
+    background:purple;
+    grid-area:roxo;
+}
+.rosa{
+    height: 10vh;
+    background: pink;
+    grid-area: rosa;
+}
+.vermelho{
+    height: 40vh;
+    background: red;
+    grid-area: vermelho;
+}
+.cinza{
+    height:40vh;
+    background:gray;
+    grid-area:cinza;
+}
+
+.site{
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 10% 20% 70%;
+    grid-template-areas: 
+    "preta preta preta "
+    "azul cinza roxo"
+    "azul vermelho roxo"
+    "rosa rosa rosa ";
+}
