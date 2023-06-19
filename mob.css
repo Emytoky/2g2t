@@ -8,6 +8,9 @@
    height: 60px;
    background-color: blue;
 }
+@import 'menu.css';
+
+
 .conteudo{
     width: 100%;
     background-color: aqua;
